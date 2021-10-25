@@ -3,8 +3,13 @@
     2. Get current date.
         1. Define the dates with new Date() function.
     3. Subtract the current date from the ending date.
-    4. 
-        1. Use getTime() function, this converts them into number values
+        1. Answer will be in milliseconds. Divide by 1000 for seconds.
+    4. Find the values for Days, Hours, Minutes, and seconds.
+        1. Use Math.floor() to get time without decimals.
+    5. Write a function that puts "0" before the number if that number is under less than 10.
+    6. Set text content to be equal to value of the traditional time translation function.
+    7. Set interval to run the countdown() and change the time display every second.
+        1. 1000 milliseconds = 1 second.
 
 */
 
